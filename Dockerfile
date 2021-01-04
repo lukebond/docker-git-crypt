@@ -1,8 +1,8 @@
-FROM alpine:3.6
+FROM alpine:latest
 MAINTAINER Xueshan Feng <xueshan.feng@gmail.com>
 MAINTAINER Luke Bond <luke.n.bond@gmail.com>
 
-ENV VERSION 0.5.0-2
+ENV VERSION 0.6.0-1
 
 RUN apk --update add \
    bash \
